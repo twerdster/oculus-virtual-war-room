@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-labelledby="title desc" font-family="Helvetica, Arial, sans-serif">
   <title id="title">Explanatory illustration: shared virtual war-room</title>
-  <desc id="desc">Schematic, not a screenshot or research result. Two participants wearing Oculus Rift headsets each control an avatar in one shared virtual room around a planning table. A legacy Unity networking host synchronizes avatar motion and voice between participants.</desc>
+  <desc id="desc">Schematic, not a screenshot or research result. Two participants wearing Oculus Rift headsets control avatars in an intended shared room around a planning table. The drawing illustrates avatar-state synchronization and text-chat code paths using legacy Unity networking; no complete working scene is established.</desc>
   <rect x="0" y="0" width="720" height="420" rx="14" fill="#f6f7f9"/>
 
   <!-- shared virtual room -->
@@ -41,8 +41,8 @@
     <path d="M610 160 C570 160 530 160 488 165" marker-end="url(#arr)" marker-start="url(#arr)"/>
   </g>
   <g font-size="11" fill="#2f6f9f" text-anchor="middle">
-    <text x="160" y="140">motion + voice</text>
-    <text x="560" y="140">motion + voice</text>
+    <text x="160" y="140">motion + text chat</text>
+    <text x="560" y="140">motion + text chat</text>
   </g>
 
   <!-- network host -->
