@@ -1,5 +1,15 @@
 # Multi-user virtual war-room for Oculus Rift
 
+<p align="center">
+  <img src="assets/project-preview.svg" alt="Explanatory schematic, not a screenshot: two participants wearing Oculus Rift headsets exchange motion and voice with their avatars around a planning table in one shared virtual room, connected through a legacy Unity networking host" width="520">
+</p>
+
+<p align="center"><em>Explanatory illustration drawn for this archive. It is not a screenshot, recording or research result from the original project.</em></p>
+
+![Platform: Unity + Oculus Rift](https://img.shields.io/badge/platform-Unity%20%2B%20Oculus%20Rift-lightgrey)
+![Code: C# (Unity scripts)](https://img.shields.io/badge/code-C%23%20%28Unity%20scripts%29-blue)
+![Source: scripts-only snapshot](https://img.shields.io/badge/source-scripts--only%20snapshot-orange)
+
 A shared virtual planning environment for Oculus Rift, with voice communication and synchronized avatar motion.
 
 Students: Noam Peretz, Mor Furshpan.
@@ -9,6 +19,10 @@ Supervision: Aaron Wetzler.
 ## Status
 
 **Original script snapshot recovered. Build and run untested.** `source/scripts/` contains 24 unchanged C# files from `scripts.zip` in the June 2014 final handoff. The companion ZIP contains documents, not a second part of a complete Unity project. This repository is not a runnable game or complete Unity project.
+
+## Original code
+
+The 24 recovered C# scripts are in [`source/scripts/`](source/scripts/), unchanged from the June 2014 handoff. The Unity project, scenes and assets they depend on are not included; see below.
 
 ## Running
 
@@ -27,4 +41,6 @@ A runnable recovery would first require the original Unity project/assets, compa
 ## Attribution and Updates
 
 Original student credits are preserved. No blanket license has been added; Unity/Oculus and other third-party components retain their own terms. Original authors can open an issue to contribute updates or request corrections or removal of their material.
+
+Figure provenance: no verified original project figure was available, so `assets/project-preview.svg` is a schematic drawn for this archive in November 2026 from the project description and script names. It illustrates the concept only and does not depict the original application, its interface or any measured result.
 
